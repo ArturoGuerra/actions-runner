@@ -6,3 +6,5 @@ RUN sudo apt update -y \
 
 RUN docker context create builders \
     && docker context use builders
+
+ENV DOCKER_CONTEXT=builders
