@@ -47,7 +47,7 @@ jobs:
 
 
       - name: Set up QEMU
-        use: docker/setup-qemu-action@v2
+        uses: docker/setup-qemu-action@v2
 
 
       - name: Create Docker Context
