@@ -1,4 +1,4 @@
 #!/bin/sh
 
-source /usr/bin/scripts.sh
-source /usr/bin/entrypoint.sh
+/bin/sh /usr/bin/scripts.sh
+/bin/sh/usr/bin/entrypoint.sh
