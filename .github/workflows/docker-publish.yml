@@ -81,6 +81,8 @@ jobs:
           tags: |
             type=ref,event=branch
             type=ref,event=tag
+            type=sha
+            type=sha,format=long
             type=raw,value=latest,enable=${{ github.ref == format('refs/heads/{0}', 'main') }}
 
       # Build and push Docker image with Buildx (don't push on PR)
